@@ -42,6 +42,9 @@ struct NamedGpio
 // Index is of 30 pin connector starting with GND, Audio GND, Line Out R!
 // array of constant pointers to virtual gpios
 extern NamedGpio const gpios[NumberOfPins];
+
+static uint32_t connectionMatrix[NumberOfPins];
+
 // --- --- --- --- --- --- --- ---  GPIO  --- --- --- --- --- --- --- ---
 
 }	// namespace Hardware

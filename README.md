@@ -1,4 +1,4 @@
-# Checkirona: iPhone 30pin Connector Short-Circuit Tester
+# Checkirona: iPhone Connector Short-Circuit Tester
 
 [Corona][corona] uses the 30pin iPhone connector to communicate with everything.
 
@@ -28,7 +28,7 @@ xpcc is provided as a git submodule, to use it run this in the root `checkirona/
 
 	$ git submodule init
 	$ git submodule update
-	
+
 We configured a [headless virtual machine][rca-vm] for VirtualBox (size: ~1.2GB), which
 is managed using Vagrant and contains all software required for compiling xpcc.
 
