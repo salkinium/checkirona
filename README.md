@@ -2,7 +2,15 @@
 
 [Corona][corona] uses the 30pin iPhone connector to communicate with everything.
 
-This simple project uses an STM32F4 Discovery with a custom connector PCB board to test all 30 connections for a short circuit.
+This simple project uses an STM32F4 Discovery with a custom connector PCB board to test all 30 connections for a short circuit and displays it as an adjacency matrix and as a flattened connector view.
+
+You must connect a USB-to-Serial connector and open a terminal using picocom:
+
+	$ picocom --imap lfcrlf -b 115200 /dev/tty.usbserial-*
+
+The output looks something like this:
+
+![image](screenshot.png)]
 
 This project was designed and manufactured at [The Media Computing Group][i10].
 
