@@ -17,7 +17,7 @@
 #define CORONA_STM32_HARDWARE_HPP
 
 #include "stm32f4_discovery.hpp"
-#include <xpcc/debug/logger.hpp>
+#include <xpcc/io/iostream.hpp>
 #include <xpcc/processing.hpp>
 
 #include "virtual_gpio.hpp"
@@ -27,6 +27,7 @@ namespace Hardware
 
 // --- --- --- --- --- --- --- Communication  --- --- --- --- --- --- ---
 typedef Usart2 Uart;
+extern xpcc::IOStream serial;
 // --- --- --- --- --- --- --- Communication  --- --- --- --- --- --- ---
 
 

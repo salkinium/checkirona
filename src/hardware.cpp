@@ -3,27 +3,8 @@
 #include "hardware.hpp"
 
 // --- --- --- --- --- --- --- Communication  --- --- --- --- --- --- ---
-#include <xpcc/io/iostream.hpp>
-xpcc::IODeviceWrapper<Hardware::Uart, xpcc::IOBuffer::DiscardIfFull> outputDevice;
-
-#include <xpcc/debug/logger/style_wrapper.hpp>
-#include <xpcc/debug/logger/style/prefix.hpp>
-#include <xpcc/debug/logger.hpp>
-xpcc::log::StyleWrapper< xpcc::log::Prefix< char[4] > > loggerDeviceDebug(
-		xpcc::log::Prefix< char[4] >("D: ", outputDevice ) );
-xpcc::log::Logger xpcc::log::debug(loggerDeviceDebug);
-
-xpcc::log::StyleWrapper< xpcc::log::Prefix< char[4] > > loggerDeviceInfo(
-		xpcc::log::Prefix< char[4] >("I: ", outputDevice ) );
-xpcc::log::Logger xpcc::log::info(loggerDeviceInfo);
-
-xpcc::log::StyleWrapper< xpcc::log::Prefix< char[4] > > loggerDeviceWarning(
-		xpcc::log::Prefix< char[4] >("W: ", outputDevice ) );
-xpcc::log::Logger xpcc::log::warning(loggerDeviceWarning);
-
-xpcc::log::StyleWrapper< xpcc::log::Prefix< char[4] > > loggerDeviceError(
-		xpcc::log::Prefix< char[4] >("E: ", outputDevice ) );
-xpcc::log::Logger xpcc::log::error(loggerDeviceError);
+xpcc::IODeviceWrapper<Hardware::Uart, xpcc::IOBuffer::BlockIfFull> outputDevice;
+xpcc::IOStream Hardware::serial(outputDevice);
 
 using namespace xpcc::stm32;
 
