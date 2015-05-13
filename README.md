@@ -10,7 +10,7 @@ You must connect a USB-to-Serial connector and open a terminal using picocom:
 
 The output looks something like this:
 
-![image](screenshot.png)]
+![image](screenshot.png)
 
 This project was designed and manufactured at [The Media Computing Group][i10].
 
