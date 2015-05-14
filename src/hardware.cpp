@@ -123,7 +123,7 @@ NamedGpio const gpios[NumberOfPins] =
 
 	{&gpioB7, "Line In L"},
 	{&gpioB8, "N/C (Remote Sense)"},
-	{&gpioE3, "Composite Video Out"},
+	{&gpioE2, "Composite Video Out"},
 	{&gpioD2, "S-Video Chrominance Output"},
 	{&gpioC11, "S-Video Luminance Output"},
 

@@ -126,112 +126,6 @@
 <libraries>
 <library name="STM32F4-DISCOVERY">
 <packages>
-<package name="STM32F4-DISCOVERY">
-<wire x1="-30.48" y1="-33.02" x2="27.94" y2="-33.02" width="0.127" layer="21"/>
-<wire x1="27.94" y1="-33.02" x2="27.94" y2="33.02" width="0.127" layer="21"/>
-<wire x1="27.94" y1="33.02" x2="-30.48" y2="33.02" width="0.127" layer="21"/>
-<wire x1="-30.48" y1="33.02" x2="-30.48" y2="-33.02" width="0.127" layer="21"/>
-<pad name="P$1" x="-27.94" y="30.48" drill="0.8" shape="square"/>
-<pad name="P$2" x="-25.4" y="30.48" drill="0.8"/>
-<pad name="P$3" x="-27.94" y="27.94" drill="0.8"/>
-<pad name="P$4" x="-25.4" y="27.94" drill="0.8"/>
-<pad name="P$5" x="-27.94" y="25.4" drill="0.8"/>
-<pad name="P$6" x="-25.4" y="25.4" drill="0.8"/>
-<pad name="P$7" x="-27.94" y="22.86" drill="0.8"/>
-<pad name="P$8" x="-25.4" y="22.86" drill="0.8"/>
-<pad name="P$9" x="-27.94" y="20.32" drill="0.8"/>
-<pad name="P$10" x="-25.4" y="20.32" drill="0.8"/>
-<pad name="P$11" x="-27.94" y="17.78" drill="0.8"/>
-<pad name="P$12" x="-25.4" y="17.78" drill="0.8"/>
-<pad name="P$13" x="-27.94" y="15.24" drill="0.8"/>
-<pad name="P$14" x="-25.4" y="15.24" drill="0.8"/>
-<pad name="P$15" x="-27.94" y="12.7" drill="0.8"/>
-<pad name="P$16" x="-25.4" y="12.7" drill="0.8"/>
-<pad name="P$17" x="-27.94" y="10.16" drill="0.8"/>
-<pad name="P$18" x="-25.4" y="10.16" drill="0.8"/>
-<pad name="P$19" x="-27.94" y="7.62" drill="0.8"/>
-<pad name="P$20" x="-25.4" y="7.62" drill="0.8"/>
-<pad name="P$21" x="-27.94" y="5.08" drill="0.8"/>
-<pad name="P$22" x="-25.4" y="5.08" drill="0.8"/>
-<pad name="P$23" x="-27.94" y="2.54" drill="0.8"/>
-<pad name="P$24" x="-25.4" y="2.54" drill="0.8"/>
-<pad name="P$25" x="-27.94" y="0" drill="0.8"/>
-<pad name="P$26" x="-25.4" y="0" drill="0.8"/>
-<pad name="P$27" x="-27.94" y="-2.54" drill="0.8"/>
-<pad name="P$28" x="-25.4" y="-2.54" drill="0.8"/>
-<pad name="P$29" x="-27.94" y="-5.08" drill="0.8"/>
-<pad name="P$30" x="-25.4" y="-5.08" drill="0.8"/>
-<pad name="P$31" x="-27.94" y="-7.62" drill="0.8"/>
-<pad name="P$32" x="-25.4" y="-7.62" drill="0.8"/>
-<pad name="P$33" x="-27.94" y="-10.16" drill="0.8"/>
-<pad name="P$34" x="-25.4" y="-10.16" drill="0.8"/>
-<pad name="P$35" x="-27.94" y="-12.7" drill="0.8"/>
-<pad name="P$36" x="-25.4" y="-12.7" drill="0.8"/>
-<pad name="P$37" x="-27.94" y="-15.24" drill="0.8"/>
-<pad name="P$38" x="-25.4" y="-15.24" drill="0.8"/>
-<pad name="P$39" x="-27.94" y="-17.78" drill="0.8"/>
-<pad name="P$40" x="-25.4" y="-17.78" drill="0.8"/>
-<pad name="P$41" x="-27.94" y="-20.32" drill="0.8"/>
-<pad name="P$42" x="-25.4" y="-20.32" drill="0.8"/>
-<pad name="P$43" x="-27.94" y="-22.86" drill="0.8"/>
-<pad name="P$44" x="-25.4" y="-22.86" drill="0.8"/>
-<pad name="P$45" x="-27.94" y="-25.4" drill="0.8"/>
-<pad name="P$46" x="-25.4" y="-25.4" drill="0.8"/>
-<pad name="P$47" x="-27.94" y="-27.94" drill="0.8"/>
-<pad name="P$48" x="-25.4" y="-27.94" drill="0.8"/>
-<pad name="P$49" x="-27.94" y="-30.48" drill="0.8"/>
-<pad name="P$50" x="-25.4" y="-30.48" drill="0.8"/>
-<pad name="P$51" x="22.86" y="30.48" drill="0.8" shape="square"/>
-<pad name="P$52" x="25.4" y="30.48" drill="0.8"/>
-<pad name="P$53" x="22.86" y="27.94" drill="0.8"/>
-<pad name="P$54" x="25.4" y="27.94" drill="0.8"/>
-<pad name="P$55" x="22.86" y="25.4" drill="0.8"/>
-<pad name="P$56" x="25.4" y="25.4" drill="0.8"/>
-<pad name="P$57" x="22.86" y="22.86" drill="0.8"/>
-<pad name="P$58" x="25.4" y="22.86" drill="0.8"/>
-<pad name="P$59" x="22.86" y="20.32" drill="0.8"/>
-<pad name="P$60" x="25.4" y="20.32" drill="0.8"/>
-<pad name="P$61" x="22.86" y="17.78" drill="0.8"/>
-<pad name="P$62" x="25.4" y="17.78" drill="0.8"/>
-<pad name="P$63" x="22.86" y="15.24" drill="0.8"/>
-<pad name="P$64" x="25.4" y="15.24" drill="0.8"/>
-<pad name="P$65" x="22.86" y="12.7" drill="0.8"/>
-<pad name="P$66" x="25.4" y="12.7" drill="0.8"/>
-<pad name="P$67" x="22.86" y="10.16" drill="0.8"/>
-<pad name="P$68" x="25.4" y="10.16" drill="0.8"/>
-<pad name="P$69" x="22.86" y="7.62" drill="0.8"/>
-<pad name="P$70" x="25.4" y="7.62" drill="0.8"/>
-<pad name="P$71" x="22.86" y="5.08" drill="0.8"/>
-<pad name="P$72" x="25.4" y="5.08" drill="0.8"/>
-<pad name="P$73" x="22.86" y="2.54" drill="0.8"/>
-<pad name="P$74" x="25.4" y="2.54" drill="0.8"/>
-<pad name="P$75" x="22.86" y="0" drill="0.8"/>
-<pad name="P$76" x="25.4" y="0" drill="0.8"/>
-<pad name="P$77" x="22.86" y="-2.54" drill="0.8"/>
-<pad name="P$78" x="25.4" y="-2.54" drill="0.8"/>
-<pad name="P$79" x="22.86" y="-5.08" drill="0.8"/>
-<pad name="P$80" x="25.4" y="-5.08" drill="0.8"/>
-<pad name="P$81" x="22.86" y="-7.62" drill="0.8"/>
-<pad name="P$82" x="25.4" y="-7.62" drill="0.8"/>
-<pad name="P$83" x="22.86" y="-10.16" drill="0.8"/>
-<pad name="P$84" x="25.4" y="-10.16" drill="0.8"/>
-<pad name="P$85" x="22.86" y="-12.7" drill="0.8"/>
-<pad name="P$86" x="25.4" y="-12.7" drill="0.8"/>
-<pad name="P$87" x="22.86" y="-15.24" drill="0.8"/>
-<pad name="P$88" x="25.4" y="-15.24" drill="0.8"/>
-<pad name="P$89" x="22.86" y="-17.78" drill="0.8"/>
-<pad name="P$90" x="25.4" y="-17.78" drill="0.8"/>
-<pad name="P$91" x="22.86" y="-20.32" drill="0.8"/>
-<pad name="P$92" x="25.4" y="-20.32" drill="0.8"/>
-<pad name="P$93" x="22.86" y="-22.86" drill="0.8"/>
-<pad name="P$94" x="25.4" y="-22.86" drill="0.8"/>
-<pad name="P$95" x="22.86" y="-25.4" drill="0.8"/>
-<pad name="P$96" x="25.4" y="-25.4" drill="0.8"/>
-<pad name="P$97" x="22.86" y="-27.94" drill="0.8"/>
-<pad name="P$98" x="25.4" y="-27.94" drill="0.8"/>
-<pad name="P$99" x="22.86" y="-30.48" drill="0.8"/>
-<pad name="P$100" x="25.4" y="-30.48" drill="0.8"/>
-</package>
 <package name="IPOD-CONNECTOR">
 <pad name="P$1" x="10.16" y="17.78" drill="0.9"/>
 <pad name="P$2" x="10.16" y="15.24" drill="0.9"/>
@@ -275,9 +169,247 @@
 </package>
 </packages>
 <symbols>
+<symbol name="IPOD-BREAKOUT">
+<pin name="GND" x="20.32" y="17.78" visible="pin" length="short" rot="R180"/>
+<pin name="GND@2" x="20.32" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="LINE_OUT_R" x="20.32" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="LINE_OUT_L" x="20.32" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="LINE_IN_R" x="20.32" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="LINE_IN_L" x="20.32" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="REMOTE_SENSE" x="20.32" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="COMP_VIDEO" x="20.32" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="SVIDEO_CHROM" x="20.32" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="SVIDEO_LUM" x="20.32" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="GND@5" x="20.32" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="TX_TO_IPOD" x="20.32" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="RX_FROM_IPOD" x="20.32" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="N/C" x="20.32" y="-15.24" visible="pin" length="short" rot="R180"/>
+<pin name="GND@3" x="20.32" y="-17.78" visible="pin" length="short" rot="R180"/>
+<pin name="GND@4" x="-20.32" y="-17.78" visible="pin" length="short"/>
+<pin name="N/C@2" x="-20.32" y="-15.24" visible="pin" length="short"/>
+<pin name="3V3" x="-20.32" y="-12.7" visible="pin" length="short"/>
+<pin name="12V" x="-20.32" y="-10.16" visible="pin" length="short"/>
+<pin name="12V@2" x="-20.32" y="-7.62" visible="pin" length="short"/>
+<pin name="ACC_DETECT" x="-20.32" y="-5.08" visible="pin" length="short"/>
+<pin name="TPA-" x="-20.32" y="-2.54" visible="pin" length="short"/>
+<pin name="5V" x="-20.32" y="0" visible="pin" length="short"/>
+<pin name="TPA+" x="-20.32" y="2.54" visible="pin" length="short"/>
+<pin name="DM" x="-20.32" y="5.08" visible="pin" length="short"/>
+<pin name="TPB-" x="-20.32" y="7.62" visible="pin" length="short"/>
+<pin name="DP" x="-20.32" y="10.16" visible="pin" length="short"/>
+<pin name="TPB+" x="-20.32" y="12.7" visible="pin" length="short"/>
+<pin name="GND@6" x="-20.32" y="15.24" visible="pin" length="short"/>
+<pin name="GND@7" x="-20.32" y="17.78" visible="pin" length="short"/>
+<wire x1="-17.78" y1="20.32" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="17.78" y2="20.32" width="0.254" layer="94"/>
+<wire x1="17.78" y1="20.32" x2="17.78" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-20.32" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-20.32" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-20.32" x2="-17.78" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-20.32" x2="-17.78" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="20.32" x2="-12.7" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="25.4" x2="12.7" y2="25.4" width="0.254" layer="94"/>
+<wire x1="12.7" y1="25.4" x2="12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-20.32" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="IPOD-CONNECTOR">
+<gates>
+<gate name="G$1" symbol="IPOD-BREAKOUT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="IPOD-CONNECTOR">
+<connects>
+<connect gate="G$1" pin="12V" pad="P$19"/>
+<connect gate="G$1" pin="12V@2" pad="P$20"/>
+<connect gate="G$1" pin="3V3" pad="P$18"/>
+<connect gate="G$1" pin="5V" pad="P$23"/>
+<connect gate="G$1" pin="ACC_DETECT" pad="P$21"/>
+<connect gate="G$1" pin="COMP_VIDEO" pad="P$8"/>
+<connect gate="G$1" pin="DM" pad="P$25"/>
+<connect gate="G$1" pin="DP" pad="P$27"/>
+<connect gate="G$1" pin="GND" pad="P$1"/>
+<connect gate="G$1" pin="GND@2" pad="P$2"/>
+<connect gate="G$1" pin="GND@3" pad="P$15"/>
+<connect gate="G$1" pin="GND@4" pad="P$16"/>
+<connect gate="G$1" pin="GND@5" pad="P$11"/>
+<connect gate="G$1" pin="GND@6" pad="P$29"/>
+<connect gate="G$1" pin="GND@7" pad="P$30"/>
+<connect gate="G$1" pin="LINE_IN_L" pad="P$6"/>
+<connect gate="G$1" pin="LINE_IN_R" pad="P$5"/>
+<connect gate="G$1" pin="LINE_OUT_L" pad="P$4"/>
+<connect gate="G$1" pin="LINE_OUT_R" pad="P$3"/>
+<connect gate="G$1" pin="N/C" pad="P$14"/>
+<connect gate="G$1" pin="N/C@2" pad="P$17"/>
+<connect gate="G$1" pin="REMOTE_SENSE" pad="P$7"/>
+<connect gate="G$1" pin="RX_FROM_IPOD" pad="P$13"/>
+<connect gate="G$1" pin="SVIDEO_CHROM" pad="P$9"/>
+<connect gate="G$1" pin="SVIDEO_LUM" pad="P$10"/>
+<connect gate="G$1" pin="TPA+" pad="P$24"/>
+<connect gate="G$1" pin="TPA-" pad="P$22"/>
+<connect gate="G$1" pin="TPB+" pad="P$28"/>
+<connect gate="G$1" pin="TPB-" pad="P$26"/>
+<connect gate="G$1" pin="TX_TO_IPOD" pad="P$12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="supply1">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+ GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+ Please keep in mind, that these devices are necessary for the
+ automatic wiring of the supply signals.&lt;p&gt;
+ The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+ In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="GND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND" prefix="GND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="elva">
+<packages>
+<package name="STM32F4-DISCOVERY">
+<wire x1="-33" y1="-32.7" x2="33" y2="-32.7" width="0.127" layer="21"/>
+<wire x1="33" y1="-32.7" x2="33" y2="64.3" width="0.127" layer="21"/>
+<wire x1="33" y1="64.3" x2="-33" y2="64.3" width="0.127" layer="21"/>
+<wire x1="-33" y1="64.3" x2="-33" y2="-32.7" width="0.127" layer="21"/>
+<pad name="P$1" x="-26.67" y="30.48" drill="0.9" shape="square"/>
+<pad name="P$2" x="-24.13" y="30.48" drill="0.9"/>
+<pad name="P$3" x="-26.67" y="27.94" drill="0.9"/>
+<pad name="P$4" x="-24.13" y="27.94" drill="0.9"/>
+<pad name="P$5" x="-26.67" y="25.4" drill="0.9"/>
+<pad name="P$6" x="-24.13" y="25.4" drill="0.9"/>
+<pad name="P$7" x="-26.67" y="22.86" drill="0.9"/>
+<pad name="P$8" x="-24.13" y="22.86" drill="0.9"/>
+<pad name="P$9" x="-26.67" y="20.32" drill="0.9"/>
+<pad name="P$10" x="-24.13" y="20.32" drill="0.9"/>
+<pad name="P$11" x="-26.67" y="17.78" drill="0.9"/>
+<pad name="P$12" x="-24.13" y="17.78" drill="0.9"/>
+<pad name="P$13" x="-26.67" y="15.24" drill="0.9"/>
+<pad name="P$14" x="-24.13" y="15.24" drill="0.9"/>
+<pad name="P$15" x="-26.67" y="12.7" drill="0.9"/>
+<pad name="P$16" x="-24.13" y="12.7" drill="0.9"/>
+<pad name="P$17" x="-26.67" y="10.16" drill="0.9"/>
+<pad name="P$18" x="-24.13" y="10.16" drill="0.9"/>
+<pad name="P$19" x="-26.67" y="7.62" drill="0.9"/>
+<pad name="P$20" x="-24.13" y="7.62" drill="0.9"/>
+<pad name="P$21" x="-26.67" y="5.08" drill="0.9"/>
+<pad name="P$22" x="-24.13" y="5.08" drill="0.9"/>
+<pad name="P$23" x="-26.67" y="2.54" drill="0.9"/>
+<pad name="P$24" x="-24.13" y="2.54" drill="0.9"/>
+<pad name="P$25" x="-26.67" y="0" drill="0.9"/>
+<pad name="P$26" x="-24.13" y="0" drill="0.9"/>
+<pad name="P$27" x="-26.67" y="-2.54" drill="0.9"/>
+<pad name="P$28" x="-24.13" y="-2.54" drill="0.9"/>
+<pad name="P$29" x="-26.67" y="-5.08" drill="0.9"/>
+<pad name="P$30" x="-24.13" y="-5.08" drill="0.9"/>
+<pad name="P$31" x="-26.67" y="-7.62" drill="0.9"/>
+<pad name="P$32" x="-24.13" y="-7.62" drill="0.9"/>
+<pad name="P$33" x="-26.67" y="-10.16" drill="0.9"/>
+<pad name="P$34" x="-24.13" y="-10.16" drill="0.9"/>
+<pad name="P$35" x="-26.67" y="-12.7" drill="0.9"/>
+<pad name="P$36" x="-24.13" y="-12.7" drill="0.9"/>
+<pad name="P$37" x="-26.67" y="-15.24" drill="0.9"/>
+<pad name="P$38" x="-24.13" y="-15.24" drill="0.9"/>
+<pad name="P$39" x="-26.67" y="-17.78" drill="0.9"/>
+<pad name="P$40" x="-24.13" y="-17.78" drill="0.9"/>
+<pad name="P$41" x="-26.67" y="-20.32" drill="0.9"/>
+<pad name="P$42" x="-24.13" y="-20.32" drill="0.9"/>
+<pad name="P$43" x="-26.67" y="-22.86" drill="0.9"/>
+<pad name="P$44" x="-24.13" y="-22.86" drill="0.9"/>
+<pad name="P$45" x="-26.67" y="-25.4" drill="0.9"/>
+<pad name="P$46" x="-24.13" y="-25.4" drill="0.9"/>
+<pad name="P$47" x="-26.67" y="-27.94" drill="0.9"/>
+<pad name="P$48" x="-24.13" y="-27.94" drill="0.9"/>
+<pad name="P$49" x="-26.67" y="-30.48" drill="0.9"/>
+<pad name="P$50" x="-24.13" y="-30.48" drill="0.9"/>
+<pad name="P$51" x="24.13" y="30.48" drill="0.9" shape="square"/>
+<pad name="P$52" x="26.67" y="30.48" drill="0.9"/>
+<pad name="P$53" x="24.13" y="27.94" drill="0.9"/>
+<pad name="P$54" x="26.67" y="27.94" drill="0.9"/>
+<pad name="P$55" x="24.13" y="25.4" drill="0.9"/>
+<pad name="P$56" x="26.67" y="25.4" drill="0.9"/>
+<pad name="P$57" x="24.13" y="22.86" drill="0.9"/>
+<pad name="P$58" x="26.67" y="22.86" drill="0.9"/>
+<pad name="P$59" x="24.13" y="20.32" drill="0.9"/>
+<pad name="P$60" x="26.67" y="20.32" drill="0.9"/>
+<pad name="P$61" x="24.13" y="17.78" drill="0.9"/>
+<pad name="P$62" x="26.67" y="17.78" drill="0.9"/>
+<pad name="P$63" x="24.13" y="15.24" drill="0.9"/>
+<pad name="P$64" x="26.67" y="15.24" drill="0.9"/>
+<pad name="P$65" x="24.13" y="12.7" drill="0.9"/>
+<pad name="P$66" x="26.67" y="12.7" drill="0.9"/>
+<pad name="P$67" x="24.13" y="10.16" drill="0.9"/>
+<pad name="P$68" x="26.67" y="10.16" drill="0.9"/>
+<pad name="P$69" x="24.13" y="7.62" drill="0.9"/>
+<pad name="P$70" x="26.67" y="7.62" drill="0.9"/>
+<pad name="P$71" x="24.13" y="5.08" drill="0.9"/>
+<pad name="P$72" x="26.67" y="5.08" drill="0.9"/>
+<pad name="P$73" x="24.13" y="2.54" drill="0.9"/>
+<pad name="P$74" x="26.67" y="2.54" drill="0.9"/>
+<pad name="P$75" x="24.13" y="0" drill="0.9"/>
+<pad name="P$76" x="26.67" y="0" drill="0.9"/>
+<pad name="P$77" x="24.13" y="-2.54" drill="0.9"/>
+<pad name="P$78" x="26.67" y="-2.54" drill="0.9"/>
+<pad name="P$79" x="24.13" y="-5.08" drill="0.9"/>
+<pad name="P$80" x="26.67" y="-5.08" drill="0.9"/>
+<pad name="P$81" x="24.13" y="-7.62" drill="0.9"/>
+<pad name="P$82" x="26.67" y="-7.62" drill="0.9"/>
+<pad name="P$83" x="24.13" y="-10.16" drill="0.9"/>
+<pad name="P$84" x="26.67" y="-10.16" drill="0.9"/>
+<pad name="P$85" x="24.13" y="-12.7" drill="0.9"/>
+<pad name="P$86" x="26.67" y="-12.7" drill="0.9"/>
+<pad name="P$87" x="24.13" y="-15.24" drill="0.9"/>
+<pad name="P$88" x="26.67" y="-15.24" drill="0.9"/>
+<pad name="P$89" x="24.13" y="-17.78" drill="0.9"/>
+<pad name="P$90" x="26.67" y="-17.78" drill="0.9"/>
+<pad name="P$91" x="24.13" y="-20.32" drill="0.9"/>
+<pad name="P$92" x="26.67" y="-20.32" drill="0.9"/>
+<pad name="P$93" x="24.13" y="-22.86" drill="0.9"/>
+<pad name="P$94" x="26.67" y="-22.86" drill="0.9"/>
+<pad name="P$95" x="24.13" y="-25.4" drill="0.9"/>
+<pad name="P$96" x="26.67" y="-25.4" drill="0.9"/>
+<pad name="P$97" x="24.13" y="-27.94" drill="0.9"/>
+<pad name="P$98" x="26.67" y="-27.94" drill="0.9"/>
+<pad name="P$99" x="24.13" y="-30.48" drill="0.9"/>
+<pad name="P$100" x="26.67" y="-30.48" drill="0.9"/>
+</package>
+</packages>
+<symbols>
 <symbol name="STM32F4-DISCOVERY">
 <wire x1="-17.78" y1="-63.5" x2="-17.78" y2="-53.34" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-53.34" x2="-17.78" y2="-48.26" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-53.34" x2="-17.78" y2="-50.8" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-50.8" x2="-17.78" y2="-48.26" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="-48.26" x2="-17.78" y2="-45.72" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="-45.72" x2="-17.78" y2="-43.18" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="-43.18" x2="-17.78" y2="-40.64" width="0.254" layer="94"/>
@@ -313,7 +445,8 @@
 <wire x1="104.14" y1="-38.1" x2="104.14" y2="-33.02" width="0.254" layer="94"/>
 <wire x1="104.14" y1="-33.02" x2="104.14" y2="-30.48" width="0.254" layer="94"/>
 <wire x1="104.14" y1="-30.48" x2="104.14" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="104.14" y1="-22.86" x2="104.14" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="104.14" y1="-22.86" x2="104.14" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="104.14" y1="-17.78" x2="104.14" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="104.14" y1="-15.24" x2="104.14" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="104.14" y1="-12.7" x2="104.14" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="104.14" y1="-10.16" x2="104.14" y2="2.54" width="0.254" layer="94"/>
@@ -321,8 +454,7 @@
 <wire x1="124.46" y1="2.54" x2="124.46" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="124.46" y1="-10.16" x2="124.46" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="124.46" y1="-12.7" x2="124.46" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="124.46" y1="-15.24" x2="124.46" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="124.46" y1="-17.78" x2="124.46" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="124.46" y1="-15.24" x2="124.46" y2="-27.94" width="0.254" layer="94"/>
 <wire x1="124.46" y1="-27.94" x2="124.46" y2="-30.48" width="0.254" layer="94"/>
 <wire x1="124.46" y1="-30.48" x2="124.46" y2="-35.56" width="0.254" layer="94"/>
 <wire x1="124.46" y1="-35.56" x2="124.46" y2="-40.64" width="0.254" layer="94"/>
@@ -489,7 +621,6 @@
 <wire x1="106.68" y1="-38.1" x2="104.14" y2="-38.1" width="0.254" layer="94"/>
 <wire x1="106.68" y1="-33.02" x2="104.14" y2="-33.02" width="0.254" layer="94"/>
 <wire x1="121.92" y1="-35.56" x2="124.46" y2="-35.56" width="0.254" layer="94"/>
-<wire x1="121.92" y1="-17.78" x2="124.46" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="124.46" y1="-15.24" x2="121.92" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="106.68" y1="-15.24" x2="104.14" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="104.14" y1="-12.7" x2="106.68" y2="-12.7" width="0.254" layer="94"/>
@@ -502,52 +633,8 @@
 <wire x1="0" y1="-35.56" x2="2.54" y2="-35.56" width="0.254" layer="94"/>
 <wire x1="0" y1="-33.02" x2="2.54" y2="-33.02" width="0.254" layer="94"/>
 <wire x1="0" y1="-30.48" x2="2.54" y2="-30.48" width="0.254" layer="94"/>
-</symbol>
-<symbol name="IPOD-BREAKOUT">
-<pin name="GND" x="20.32" y="17.78" visible="pin" length="short" rot="R180"/>
-<pin name="GND@2" x="20.32" y="15.24" visible="pin" length="short" rot="R180"/>
-<pin name="LINE_OUT_R" x="20.32" y="12.7" visible="pin" length="short" rot="R180"/>
-<pin name="LINE_OUT_L" x="20.32" y="10.16" visible="pin" length="short" rot="R180"/>
-<pin name="LINE_IN_R" x="20.32" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="LINE_IN_L" x="20.32" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="REMOTE_SENSE" x="20.32" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="COMP_VIDEO" x="20.32" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="SVIDEO_CHROM" x="20.32" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="SVIDEO_LUM" x="20.32" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="GND@5" x="20.32" y="-7.62" visible="pin" length="short" rot="R180"/>
-<pin name="TX_TO_IPOD" x="20.32" y="-10.16" visible="pin" length="short" rot="R180"/>
-<pin name="RX_FROM_IPOD" x="20.32" y="-12.7" visible="pin" length="short" rot="R180"/>
-<pin name="N/C" x="20.32" y="-15.24" visible="pin" length="short" rot="R180"/>
-<pin name="GND@3" x="20.32" y="-17.78" visible="pin" length="short" rot="R180"/>
-<pin name="GND@4" x="-20.32" y="-17.78" visible="pin" length="short"/>
-<pin name="N/C@2" x="-20.32" y="-15.24" visible="pin" length="short"/>
-<pin name="3V3" x="-20.32" y="-12.7" visible="pin" length="short"/>
-<pin name="12V" x="-20.32" y="-10.16" visible="pin" length="short"/>
-<pin name="12V@2" x="-20.32" y="-7.62" visible="pin" length="short"/>
-<pin name="ACC_DETECT" x="-20.32" y="-5.08" visible="pin" length="short"/>
-<pin name="TPA-" x="-20.32" y="-2.54" visible="pin" length="short"/>
-<pin name="5V" x="-20.32" y="0" visible="pin" length="short"/>
-<pin name="TPA+" x="-20.32" y="2.54" visible="pin" length="short"/>
-<pin name="DM" x="-20.32" y="5.08" visible="pin" length="short"/>
-<pin name="TPB-" x="-20.32" y="7.62" visible="pin" length="short"/>
-<pin name="DP" x="-20.32" y="10.16" visible="pin" length="short"/>
-<pin name="TPB+" x="-20.32" y="12.7" visible="pin" length="short"/>
-<pin name="GND@6" x="-20.32" y="15.24" visible="pin" length="short"/>
-<pin name="GND@7" x="-20.32" y="17.78" visible="pin" length="short"/>
-<wire x1="-17.78" y1="20.32" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
-<wire x1="12.7" y1="20.32" x2="17.78" y2="20.32" width="0.254" layer="94"/>
-<wire x1="17.78" y1="20.32" x2="17.78" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-20.32" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-20.32" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-20.32" x2="-17.78" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-20.32" x2="-17.78" y2="20.32" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="20.32" x2="-12.7" y2="25.4" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="25.4" x2="12.7" y2="25.4" width="0.254" layer="94"/>
-<wire x1="12.7" y1="25.4" x2="12.7" y2="20.32" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-20.32" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-15.24" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="104.14" y1="-17.78" x2="106.68" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-50.8" x2="-15.24" y2="-50.8" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -665,83 +752,6 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="IPOD-CONNECTOR">
-<gates>
-<gate name="G$1" symbol="IPOD-BREAKOUT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="IPOD-CONNECTOR">
-<connects>
-<connect gate="G$1" pin="12V" pad="P$19"/>
-<connect gate="G$1" pin="12V@2" pad="P$20"/>
-<connect gate="G$1" pin="3V3" pad="P$18"/>
-<connect gate="G$1" pin="5V" pad="P$23"/>
-<connect gate="G$1" pin="ACC_DETECT" pad="P$21"/>
-<connect gate="G$1" pin="COMP_VIDEO" pad="P$8"/>
-<connect gate="G$1" pin="DM" pad="P$25"/>
-<connect gate="G$1" pin="DP" pad="P$27"/>
-<connect gate="G$1" pin="GND" pad="P$1"/>
-<connect gate="G$1" pin="GND@2" pad="P$2"/>
-<connect gate="G$1" pin="GND@3" pad="P$15"/>
-<connect gate="G$1" pin="GND@4" pad="P$16"/>
-<connect gate="G$1" pin="GND@5" pad="P$11"/>
-<connect gate="G$1" pin="GND@6" pad="P$29"/>
-<connect gate="G$1" pin="GND@7" pad="P$30"/>
-<connect gate="G$1" pin="LINE_IN_L" pad="P$6"/>
-<connect gate="G$1" pin="LINE_IN_R" pad="P$5"/>
-<connect gate="G$1" pin="LINE_OUT_L" pad="P$4"/>
-<connect gate="G$1" pin="LINE_OUT_R" pad="P$3"/>
-<connect gate="G$1" pin="N/C" pad="P$14"/>
-<connect gate="G$1" pin="N/C@2" pad="P$17"/>
-<connect gate="G$1" pin="REMOTE_SENSE" pad="P$7"/>
-<connect gate="G$1" pin="RX_FROM_IPOD" pad="P$13"/>
-<connect gate="G$1" pin="SVIDEO_CHROM" pad="P$9"/>
-<connect gate="G$1" pin="SVIDEO_LUM" pad="P$10"/>
-<connect gate="G$1" pin="TPA+" pad="P$24"/>
-<connect gate="G$1" pin="TPA-" pad="P$22"/>
-<connect gate="G$1" pin="TPB+" pad="P$28"/>
-<connect gate="G$1" pin="TPB-" pad="P$26"/>
-<connect gate="G$1" pin="TX_TO_IPOD" pad="P$12"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="supply1">
-<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
- GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
- Please keep in mind, that these devices are necessary for the
- automatic wiring of the supply signals.&lt;p&gt;
- The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
- In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
- &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="GND">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GND" prefix="GND">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -754,7 +764,7 @@
 </class>
 </classes>
 <parts>
-<part name="U$1" library="STM32F4-DISCOVERY" deviceset="STM32F4-DISCOVERY" device=""/>
+<part name="U$1" library="elva" deviceset="STM32F4-DISCOVERY" device=""/>
 <part name="U$2" library="STM32F4-DISCOVERY" deviceset="IPOD-CONNECTOR" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 </parts>
@@ -1052,17 +1062,6 @@
 <wire x1="20.32" y1="19.05" x2="20.32" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$30" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PE3"/>
-<wire x1="7.62" y1="59.69" x2="78.74" y2="59.69" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="59.69" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="59.69" x2="7.62" y2="16.51" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="COMP_VIDEO"/>
-<wire x1="7.62" y1="16.51" x2="20.32" y2="16.51" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="16.51" x2="20.32" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$31" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PD3"/>
@@ -1078,6 +1077,16 @@
 <pinref part="U$1" gate="G$1" pin="GND1"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="-43.18" y1="78.74" x2="-38.1" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PE2"/>
+<wire x1="48.26" y1="60.96" x2="7.62" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="COMP_VIDEO"/>
+<wire x1="7.62" y1="60.96" x2="7.62" y2="16.51" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="16.51" x2="20.32" y2="16.51" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="16.51" x2="20.32" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
