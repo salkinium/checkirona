@@ -44,14 +44,15 @@ printConnector()
 }
 
 constexpr uint8_t lines = 30;
+constexpr uint8_t colums = 4*NumberOfPins;
 uint32_t flattened[lines];
-char scratch[lines][4*30+1];
+char scratch[lines][colums+1];
 bool too_many = false;
 
 void
 printIntoScratch(uint8_t line, uint8_t pos, const char *string)
 {
-	while(pos < 4*30 and *string != '\0')
+	while(pos < colums and *string != '\0')
 	{
 		scratch[line][pos++] = *string++;
 	}
@@ -116,11 +117,11 @@ int main(void)
 
 	std::memset(&flattened, 0, lines * 4);
 	// fill with spaces
-	std::memset(scratch, ' ', lines * (4*30+1));
+	std::memset(scratch, ' ', lines * (colums+1));
 	// but the last one must be zero
 	for (int ii=0; ii < lines; ii++)
 	{
-		scratch[ii][4*30] = 0;
+		scratch[ii][colums] = 0;
 	}
 
 	for (NamedGpio gpio : gpios)
@@ -173,10 +174,13 @@ int main(void)
 	// Magic ANSI escape codes clear the screen
 	serial << "\033[2J\033[1;1H";
 
+	uint32_t allConnections = 0;
+
 	// print connection matrix
 	serial << "Adjacency Matrix:\n";
 	for (int ii=0; ii < NumberOfPins; ii++)
 	{
+		allConnections |= connectionMatrix[ii];
 		printPin(ii);
 	}
 
@@ -186,11 +190,15 @@ int main(void)
 
 	for (int ii=0; ii < NumberOfPins; ii++)
 	{
-		if (connectionMatrix[ii] != 0) {
+		if (allConnections & (1 << ii))
+		{
 			for (int jj=ii+1; jj < NumberOfPins; jj++)
 			{
-				if (connectionMatrix[ii] & (1 << jj))
+				if (allConnections & (1 << jj)) {
 					printConnection(ii, jj);
+					ii = jj-1;
+					break;
+				}
 			}
 			isEmpty = false;
 		}
