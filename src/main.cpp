@@ -181,7 +181,7 @@ int main(void)
 	serial << "Adjacency Matrix:\n";
 	for (int ii=0; ii < NumberOfPins; ii++)
 	{
-		allConnections |= connectionMatrix[ii];
+		allConnections |= (connectionMatrix[ii] & ((1 << ii) - 1));
 		printPin(ii);
 	}
 
