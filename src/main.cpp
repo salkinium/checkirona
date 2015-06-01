@@ -169,12 +169,13 @@ int main(void)
 	LedGreen::reset();
 
 	// ANALYSIS
-	bool isEmpty = true;
 
 	// Magic ANSI escape codes clear the screen
 	serial << "\033[2J\033[1;1H";
 
 	uint32_t allConnections = 0;
+	// this magic number contains the desired ("vetted") connections.
+	static constexpr uint32_t correctConnections = 0b110000000001101100010000000011;
 
 	// print connection matrix
 	serial << "Adjacency Matrix:\n";
@@ -200,17 +201,20 @@ int main(void)
 					break;
 				}
 			}
-			isEmpty = false;
 		}
 	}
 
 	printAllConnections();
 
-	if (isEmpty)	LedBlue::set();
-	else			LedRed::set();
+	bool ok = (allConnections == correctConnections);
 
-
-
+	if (ok)	{
+		LedBlue::set();
+		serial << "\n\nThis connector is ok!" << xpcc::endl;
+	} else {
+		LedRed::set();
+		serial << "\n\n#### This connector is _NOT_ ok! ####" << xpcc::endl;
+	}
 
 
 	while (1)

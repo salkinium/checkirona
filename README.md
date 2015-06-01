@@ -8,9 +8,13 @@ You must connect a USB-to-Serial connector and open a terminal using picocom:
 
 	$ picocom --imap lfcrlf -b 115200 /dev/tty.usbserial-*
 
-The output looks something like this:
+The output for a functioning connector looks like this:
 
-![image](screenshot.png)
+![image](screenshot_ok.png)
+
+The output for a broken connector looks like this:
+
+![image](screenshot_not_ok.png)
 
 This project was designed and manufactured at [The Media Computing Group][i10].
 
